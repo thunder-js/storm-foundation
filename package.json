@@ -1,14 +1,12 @@
 {
 	"name": "storm-foundation",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"main": "index.js",
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest"
 	},
-	"dependencies": {
-
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"babel-eslint": "^7.2.3",
 		"babel-jest": "20.0.3",
@@ -24,11 +22,11 @@
 		"jest": "21.2.1",
 		"react-test-renderer": "16.0.0"
 	},
-  "peerDependencies": {
-    "react": ">=15.0.0",
+	"peerDependencies": {
+		"react": ">=15.0.0",
 		"react-native": ">=0.43.0",
 		"styled-components": ">=2.0.0"
-  },
+	},
 	"jest": {
 		"preset": "react-native"
 	}
